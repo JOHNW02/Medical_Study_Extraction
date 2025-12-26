@@ -15,6 +15,7 @@ This project uses OpenAI’s large language models due to their strong performan
 ## Requirements
 - Python ≥ 3.9.2
 - OpenAI Python SDK
+  
 Install dependencies with:
 ```
 pip install -r requirements.txt
