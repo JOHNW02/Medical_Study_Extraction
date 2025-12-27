@@ -10,7 +10,7 @@ Given one or more biomedical research PDFs, the tool:
 - Validates extracted fields for missing or malformed values
 - Saves valid and invalid results into separate output directories
 
-This project uses OpenAI’s large language models due to their strong performance in long-document understanding, biomedical text comprehension, and structured information extraction. In particular, the GPT-5-mini model was selected as a practical trade-off between extraction accuracy, computational efficiency, and cost. GPT-5-mini provides sufficient reasoning capability to identify explicitly reported study details while enabling scalable batch processing of multiple research articles, making it well-suited for research pipelines and exploratory evidence synthesis workflows.
+This project uses OpenAI large language models due to their strong performance in long-document understanding, biomedical text comprehension, and structured information extraction. In particular, the GPT-5-mini model was selected as a practical trade-off between extraction accuracy, computational efficiency, and cost. GPT-5-mini provides sufficient reasoning capability to identify explicitly reported study details while enabling scalable batch processing of multiple research articles, making it well-suited for research pipelines and exploratory evidence synthesis workflows.
 
 ## Requirements
 - Python ≥ 3.9.2
