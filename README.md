@@ -33,6 +33,11 @@ python main.py --api_key <YOUR_API_KEY> <paper1.pdf> <paper2.pdf>
 
 If the API key is not provided, the program will terminate with an error message before processing any files.
 
+### Platform Compatibility
+
+This project is developed and tested on Windows.  
+However, it uses only standard Python libraries and the OpenAI Python SDK, and is expected to run correctly on Linux and macOS systems with Python ≥ 3.9.2.
+
 ## Output
 
 For each input PDF, the system generates exactly one JSON file containing the extracted study information. After execution, the main function returns a list of JSON objects. Output files are always saved to disk, regardless of whether the extraction passes validation.
